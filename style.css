@@ -1,0 +1,68 @@
+.título-página{
+text-align:center;
+font-weight:italic;
+font-weight: 3em;
+font-display:900;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: brown;
+margin: 10px}
+
+
+
+
+.nome-propriedade{
+    font-size:2em;
+    font-weight:500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blue;
+padding: 20px;}
+    
+.valor-propriedade{
+    font-size:1.5em;
+    font-weight:400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    padding:30px;
+}
+.bloco-1{
+    background-color: lightblue;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+    
+
+}
+.bloco-2{
+    background-color: lightsalmon;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+    
+
+}
+.bloco-3{
+    background-color: lightpink;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+    
+
+}
+.container-row{
+    display: flex;
+    flex-direction: row;
+    /*indiferente*/
+    background-color: #f9eac3;
+    padding: 16px;
+    height: 500px;
+    
+}
