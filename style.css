@@ -1,30 +1,33 @@
-.título-página{
-text-align:center;
-font-weight:italic;
-font-weight: 3em;
-font-display:900;
-font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-color: brown;
-margin: 10px}
+.título-página {
+    text-align: center;
+    font-weight: italic;
+    font-weight: 3em;
+    font-display: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: brown;
+    margin: 10px
+}
 
 
 
 
-.nome-propriedade{
-    font-size:2em;
-    font-weight:500;
+.nome-propriedade {
+    font-size: 2em;
+    font-weight: 500;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: blue;
-padding: 20px;}
-    
-.valor-propriedade{
-    font-size:1.5em;
-    font-weight:400;
+    padding: 20px;
+}
+
+.valor-propriedade {
+    font-size: 1.5em;
+    font-weight: 400;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: black;
-    padding:30px;
+    padding: 30px;
 }
-.bloco-1{
+
+.bloco-1 {
     background-color: lightblue;
     height: 150px;
     width: 150px;
@@ -32,10 +35,11 @@ padding: 20px;}
     font-size: 40px;
     font-family: 'Courier New', Courier, monospace;
     border-radius: 16px;
-    
+
 
 }
-.bloco-2{
+
+.bloco-2 {
     background-color: lightsalmon;
     height: 150px;
     width: 150px;
@@ -43,10 +47,11 @@ padding: 20px;}
     font-size: 40px;
     font-family: 'Courier New', Courier, monospace;
     border-radius: 16px;
-    
+
 
 }
-.bloco-3{
+
+.bloco-3 {
     background-color: lightpink;
     height: 150px;
     width: 150px;
@@ -54,15 +59,170 @@ padding: 20px;}
     font-size: 40px;
     font-family: 'Courier New', Courier, monospace;
     border-radius: 16px;
-    
+
 
 }
-.container-row{
+.bloco-1 {
+    background-color: lightblue;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+
+
+}
+
+.bloco-2 {
+    background-color: lightsalmon;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+
+
+}
+
+.bloco-3 {
+    background-color: lightpink;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+
+
+}
+
+
+.container-row {
     display: flex;
     flex-direction: row;
+    /*indiferente*/
+    background-color: #886611;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-column {
+    display: flex;
+    flex-direction: column;
+    /*indiferente*/
+    background-color: #261c04;
+    padding: 16px;
+    height: 500px;
+
+}
+
+.container-row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    /*indiferente*/
+    background-color: #c3d2f9;
+    padding: 16px;
+    height: 500px;
+}
+
+
+.container-justify-center {
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    /*indiferente*/
+    background-color: #0f4e7b;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-justify-flex-start {
+    display: flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    /*indiferente*/
+    background-color: #5211b3;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-justify-flex-end {
+    display: flex;
+    flex-direction:row;
+    justify-content:flex-end;
     /*indiferente*/
     background-color: #f9eac3;
     padding: 16px;
     height: 500px;
-    
+
 }
+.container-justify-space-between {
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    /*indiferente*/
+    background-color: #ce111a;
+    padding: 16px;
+    height: 500px;
+
+}
+
+.container-justify-space-around {
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+    /*indiferente*/
+    background-color: #1a0203;
+    padding: 16px;
+    height: 500px;
+
+}
+
+
+.container-alignitems-center {
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items: center;
+    /*indiferente*/
+    background-color: #b2df0d;
+    padding: 16px;
+    height: 500px;
+
+}
+.container-alignitems-flex-start {
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items: flex-start;
+    /*indiferente*/
+    background-color: #21140e;
+    padding: 16px;
+    height: 500px;
+
+}
+.container-alignitems-flex-end {
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items: flex-end;
+    /*indiferente*/
+    background-color: #e80c73;
+    padding: 16px;
+    height: 500px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
